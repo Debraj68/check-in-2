@@ -40,7 +40,7 @@ HikariDataSource dataSource = new HikariDataSource();
 
         dataSource.setUsername("admin");
 
-        dataSource.setPassword("admin");
+        //dataSource.setPassword("admin");
 
         return dataSource;
 
