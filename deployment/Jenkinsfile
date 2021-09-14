@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Prepare') {
-      git url: 'git@github.com:Debraj68/check-in-2', branch: 'main'
+      git url: 'git@github.com:Debraj68/check-in-2', branch: 'develop'
       mvnHome = tool 'mvn'
    }
    stage('Build') {
